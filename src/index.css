@@ -1,0 +1,35 @@
+body{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+input{
+  margin: 10px;
+  height: 35px;
+  width: 300px;
+  display: block;
+  
+}
+
+input:focus{
+  outline:2px solid red;
+}
+
+button{
+margin-left: 120px;
+color: white;
+  background-color: rgb(9, 84, 121);
+  border-radius: 7px;
+  cursor: pointer;
+  padding: 10px;
+}
+
+
+input:valid{
+  outline:2px solid green;
+}
+
+
+
